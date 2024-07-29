@@ -17,11 +17,27 @@ body{
     
 }
 
+.Navabtn{
+    
+    text-align:center;
+    color:white;
+    background-color:  rgb(23, 23, 23);
+    text-align: center;
+    
+}
+
+.Navabtn:hover{
+    
+    text-align:center;
+    color:red;
+    background-color:  rgb(23, 23, 23);
+    text-align: center;
+    
+}
+
 .Navbtn:hover{
     text-align:center;
     background-color:  rgb(23, 23, 23);
-    color: white;
-    text-decoration: none;
     
 }
 
