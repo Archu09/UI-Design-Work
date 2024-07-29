@@ -1,0 +1,70 @@
+body{
+    font-family: serif;
+}
+
+.Navbar{
+    background-color: black;
+ text-align: center;
+}
+
+.Navbtn{
+    
+    width: 120px;
+    text-align:center;
+    background-color:black;
+    color:white;
+    text-align: center;
+    
+}
+
+.Navbtn:hover{
+    text-align:center;
+    background-color:  rgb(23, 23, 23);
+    color: white;
+    text-decoration: none;
+    
+}
+
+
+.Primary_button{
+
+    background-color: #ED1C24;
+    color: white;
+    border-radius: 150px;
+    border: 0;
+    padding: 15px;
+    width: 120px;
+
+
+}
+.Primary_button:hover{
+
+    background-color: #d6161c;
+    color: white;
+    border-radius: 150px;
+    border: 0;
+    padding: 15px;
+    width: 120px;
+
+
+}
+
+.box-Selection:hover
+{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    transition: box-shadow 0.3s ease; 
+}
+
+
+a{
+    color: white;
+    text-decoration: none;
+    
+
+}
+a:hover{
+    text-decoration: none;
+    padding-bottom: 3px;
+}
