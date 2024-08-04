@@ -1,0 +1,10 @@
+
+.containter{
+    position: relative;
+}
+.CTA Setction{
+    position:absolute;
+    top: 120px;
+    color: red;
+    float: right;
+}

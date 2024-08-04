@@ -1,0 +1,134 @@
+
+body{ 
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    background-color: aliceblue;
+
+}
+.Box1, .Box2{
+    background-color: rgb(255, 255, 255);
+}
+.container{
+
+    background-color: green;
+    width: 58%;
+    margin:3% auto;
+}
+.Box1{
+    float: left;
+}
+.Box2{
+    float: right;
+}
+
+.Primary-button, .Secondary-button{
+    display: block;
+    color: white;
+    background-color: red;
+    width:400px;
+    height: 40px;
+    margin: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 12px;
+    border-radius: 5px;
+}
+
+nav{
+    font-family: 'roboto', sans-serif;
+}
+ul {
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: black;
+    color: white;
+    list-style: none;
+    margin:0;
+    padding: 0;
+    display: inline-flex;
+    text-align: center;
+        
+}
+#Logo{
+    font-family: 'Open Sans', sans-serif;
+    font-size: larger;
+    font-weight: 600;
+    border: none;
+    
+}
+
+  
+    li>a{
+        color: white;
+        background-color: black;
+        color: gray;
+        padding-top: 0px;
+        text-decoration: none;
+        line-height: 35px;
+        padding-top:10px;
+    }
+
+li{
+    width: 100px;
+    text-align: center;
+    color: gray;
+    
+}
+a:hover{
+    background-color: rgb(22, 21, 21);
+border: 1px solid white;
+color: white;
+}
+span{
+    text-align: right;
+    width: 80%;
+    opacity: 0;
+}
+    
+.Primary-button{
+    border: none;
+    border-radius: 5px;
+}
+.Secondary-button
+{
+    color: red;
+    background-color: white;
+    border: 1px solid rgb(27, 27, 27);
+
+}
+.content{
+    align-items:center;
+}
+h1{
+    font-family: 'Open Sans', sans-serif;
+
+ font-size: 18px;
+}
+p,h1{
+    text-align: center;
+
+}
+img{
+    height: 350px;
+    width:425px;
+
+}
+a{
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: black;
+    text-decoration-color:lightslategrey;
+    text-underline-offset: 5px;
+}
+.SectionHead{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+    font-weight:500;
+    margin: 30px auto;
+    display: block;
+    text-align: center;
+    color: rgb(50, 50, 50);
+}
