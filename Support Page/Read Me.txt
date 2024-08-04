@@ -1,9 +1,0 @@
-Designed this support page 
-
-Here's quick overview of what I did in this page:
-
-🔹 Explored CSS divisions
-🔹 Worked with block & inline elements
-🔹 Specifically focused on horizontal & vertical alignments
-
-Loved the process of perfecting those design details! 😃✨
