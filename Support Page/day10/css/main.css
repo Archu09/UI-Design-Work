@@ -1,0 +1,116 @@
+/* 1. positions
+	a. static : default
+	b. fixed
+	c. relative
+	d: absolute
+
+fixed and absolute:
+
+top
+left
+bottom
+right */
+
+
+
+body{
+    margin:0px;
+}
+
+.header,.baner,.footer{
+    width:100%;
+}
+
+.header{
+    height:80px;
+    background-color: brown;
+    position: fixed;
+    top:0px;
+    left:0px;
+}
+
+.baner{
+    margin-top:80px;
+    height:400px;
+    background-color: blue;
+}
+
+.container{
+    width:1200px;
+    height:auto;
+    margin:auto;
+}
+
+.row{
+width:100%;
+height:auto;
+display: flex;    
+}
+
+
+.item{
+    width:370px;
+    height:200px;
+    margin:15px;
+    background-color: blueviolet;
+    position:relative;
+}
+
+.about{
+    width:770px;
+    height:200px;
+    margin:15px;
+    background-color: rgb(13, 132, 62);
+}
+
+.aboutcont{
+    width:370px;
+    height:200px;
+    margin:15px;
+    background-color: rgb(69, 10, 54);
+}
+
+.team{
+    width:170px;
+    height:150px;
+    background-color: rgb(202, 161, 12);
+    margin:15px;
+}
+
+.gap{
+    margin-top:50px;
+}
+
+.gap100{
+    margin-top:100px;
+}
+
+.footer{
+    height:200px;
+    background-color: black;
+
+}
+
+.top{
+    width:80px;
+    height:70px;
+    border-radius: 40px 40px 0px 0px;
+    line-height: 80px;
+    color:blanchedalmond;
+    background-color: blueviolet;
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+    right:10px;
+}
+
+.circle{
+    width:70px;
+    height:70px;
+    background-color: rgb(95, 150, 12);
+    border-radius: 50%;
+   
+    position:absolute;
+    left:150px;
+    top:-35px;
+}

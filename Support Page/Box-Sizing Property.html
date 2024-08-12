@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .div1{
+            width: 200px;
+            height: 200px;
+            border: 1px solid blue;
+        }
+        .div2{
+            width: 200px;
+            height: 200px;
+            padding: 20px;
+            border: 1px solid rgb(255, 0, 34);
+        }
+
+    /*    
+   .div2{
+      
+        box-sizing: border-box;
+        
+    }
+
+        */
+    </style>
+</head>
+<body>
+    <h2>Without using box-size property</h2> 
+    <div class="div1">200W 200H
+        <p>This Div looks smaller and text displayed without any space between text and border</p>
+    </div>
+    <br>
+    <div class="div2">200W 200H
+        <br> <br>Now this looks bigger because padding was addded <br>
+        <br>But actual width and height of div is changed
+    </div>
+</body>
+</html>
