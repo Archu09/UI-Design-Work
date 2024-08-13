@@ -14,4 +14,4 @@ Design is so much fun when you master your CSS! 😍✨
 ##
 Feel free to explore, provide feedback, and collaborate!🙏
 #### Here’s a sneak peek of the project:👇
-![Supportpage](https://github.com/Archu09/UI-Design-Work/blob/543f966994f34bf75d2d02955c2f721d06cd86d9/Footwear_Product%20Page/Images/Page_Screenshot.png)
+![Supportpage](https://github.com/Archu09/UI-Design-Work/blob/d4cd11a4b3fb959483949d389a9957ae0bfe5b8f/Footwear_Product%20Page/TemplateDesign.png)
