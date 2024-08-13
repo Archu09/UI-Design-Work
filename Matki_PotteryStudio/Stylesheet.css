@@ -1,0 +1,196 @@
+body{
+    /* background-color: #212020; */
+    color: white;
+    margin:0px auto;
+    width: 1200px;
+    font-family: "Roboto", sans-serif;
+
+}
+/*  Navigation_Header bar*/
+
+/* navigationtems  */
+
+ul>span{
+    justify-content: left;
+    align-items: left;
+    /* border: 1px solid dodgerblue; */
+    display: flex;
+    position: relative;
+    left:-20%;
+    font-size: 28px;
+    font-family: "Poiret One", sans-serif;;
+    font-weight: bolder;
+    font-style: italic;
+    color:  #f6d70f;
+    text-decoration: underline;
+    /* text-underline-offset: 2px; */
+
+}
+
+nav > ul{
+
+    list-style: none;
+    color: white;
+    list-style-type: none;
+    display: flex;
+    text-align: center;
+    background-color: #161617;
+  
+    /* background-color: #d1b400; */
+
+    align-items: center;
+    justify-content: right;
+    line-height: 60px;
+    margin: 0px;
+
+
+}
+li{
+    width:100px;
+    background-color:rgb(19, 19, 19); 
+        padding: 15 px 0px;
+
+
+}
+li:hover{
+
+    background-color: #212020;
+    color: rgb(235, 226, 226);
+    text-decoration: underline;
+    text-decoration-color: #f6d70f;
+    text-underline-offset: 3px;
+    width: 100px;
+   
+
+}
+
+
+/* Change the color of links on hover */
+a{
+    color:white;
+    text-decoration: none;
+
+
+}
+a:hover{
+    height: 40px;
+    background-color: #212020;
+}
+  
+
+/* Hero Section */
+.Hero_Section{
+position: relative;
+
+}
+.Hero_img{
+    width:1200px;
+    height: 600px;
+}
+
+/* Header_Box_Content */
+.Header_Box_Content
+{
+position: relative;
+    font-family: "Open Sans", sans-serif;
+font-size: 15px;
+font-style: italic;
+    position: absolute;
+    width: 40%;
+    top:45%;
+    left: 55%;
+    
+}
+.Header_Box_Content h3{
+    font-weight: lighter;
+}
+
+.Header_bg_box {
+
+    background-color: #212020;
+    opacity: 100%;
+    position: absolute;
+    width: 40%;
+    height: 23%;
+    top:45%;
+    left: 50%;
+    opacity: 2%;
+}
+.Header_bg_box >span{
+    height: 600px;
+}
+
+/* Primary Button */
+.Primary_Button_Yellow{
+
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    background-color:#fff200;
+    color: #442c04;
+    text-transform: uppercase;
+    border: none;
+    width:160px;
+    height:50px;
+    border-radius:5px;
+
+
+
+}
+.Primary_Button_Yellow:hover{
+ cursor: pointer;
+background-color: #d1b400;
+}
+.Primary_Button_Yellow:active{
+    background-color: #a68302;
+}
+
+/* About Section */
+
+.About_section{
+    height: 300px;
+    width: 50%;
+    display: flex;
+    justify-content: center; /* Horizontally centers text */
+     align-items: center;  /* Vertically centers text */ 
+     /* border: 1px solid chocolate; */
+ 
+}
+.About_Content{
+    
+    background-color: #f6d70f;
+    color: #161617;
+    
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    border: 1px solid rgb(30, 183, 210);
+
+    
+}
+
+
+
+
+
+.About_Content h2{
+    font-family: "Roboto", sans-serif;
+    font-size: 32px;
+    font-weight: lighter;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration-line: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: black;
+  text-underline-offset: 5px;
+  text-decoration-thickness: 2px;
+
+
+
+
+}
+
+.About_Content p{
+    font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
