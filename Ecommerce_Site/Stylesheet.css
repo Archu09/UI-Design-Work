@@ -1,0 +1,197 @@
+/* <span class="material-icons orange600">face</span> */
+/* material-symbols-outlined */
+/* 
+
+
+/* Main Body */
+
+.material-symbols-outlined.orange600 { color: #FB8C00; }
+.material-symbols-outlined.md-36 { font-size: 36px; } 
+
+
+body{
+    margin:0px;
+    font-family: "Roboto", sans-serif;
+}
+/* Full Device width */
+.container-fluid{
+    width:100%;
+    height:auto;
+}
+
+/* for 1200 width */
+.container{
+    width:1200px;
+    margin:auto;
+    /* border: 1px solid saddlebrown; */
+
+}
+
+/* Navigation Bar */
+.row{
+    display: flex;
+    width:auto;
+    height: 80px;;
+    flex-wrap: wrap;
+
+}
+
+
+.logo{
+    width:200px;
+    height:60px;
+    padding:10px 0px;
+    height:80px;
+
+    /* border: 1px solid black; */
+}
+
+.navigation{
+    
+    /* border: 1px solid rgb(214, 24, 24); */
+justify-content: right;
+    width:83%;
+    padding:20px 0px;
+}
+
+.navigation ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    text-align: right;
+}
+
+.navigation ul li{
+    display: inline-block;
+}
+
+.navigation ul li a{
+    text-decoration: none;
+    line-height: 40px;
+    padding:0px 20px;
+    color:rgb(214, 24, 24);
+    display: block;
+}
+
+.navigation ul li a:hover{
+    color:white;
+    background-color:#d61818;
+}
+
+/* banner Section*/
+
+.banner {
+    width:100%;
+    height:auto;
+    position: relative;
+}
+.Header_content{
+    position: absolute;
+    top:35%;
+    left: 38%;
+    color: white;
+}
+div >img{
+    background-color: black;
+    opacity: 90%;
+}
+.HeadingText{
+    font-family: "Roboto slab", sans-serif;
+    font-weight: bold;
+    
+}
+
+
+
+.CTA{
+    position: absolute;
+    text-align: center;
+    left:30%;
+    width: 200px;
+    height: 60px;
+    background-color: white;
+    opacity: 60%;
+    border-radius: 5px;
+    border: none;
+    font-family: "Roboto slab", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.CTA:hover{
+    cursor: pointer;
+    opacity: 90%;
+    font-family: "Roboto slab", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+/* .pad50{
+    padding:50px 0px;
+    
+} */
+
+.onefourth{
+    width:270px;
+    height:400px;
+    /* background-color: rgb(12, 141, 109); */
+     margin:15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.Icons_Container
+{
+    width: auto;
+    height: auto;
+    display: flex;
+    
+}
+
+.subheading{
+    font-family: "Roboto slab", sans-serif;
+    font-weight: normal;
+}
+.para{
+    font-family: "Roboto ", sans-serif;
+    font-weight: lighter;
+}
+.Icons_Container.circle.icon{
+    justify-content: center;
+}
+.circle{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    display: flex;
+    position: relative;
+    left: 100px;
+    opacity: 100%;
+    background-color:rgb(214, 24, 24);
+}
+
+.icon{
+    position: absolute;
+    top:20px;
+    left:20px;
+
+}
+
+.pad10{
+    padding: 0px 10px;
+}
+
+/* .circle:hover >.material-symbols-outlined.white600
+ {  
+    color: red; } */
+
+
+.material-symbols-outlined.white600 { color: white; }
+
+.icon{
+    opacity: 100%;
+}
