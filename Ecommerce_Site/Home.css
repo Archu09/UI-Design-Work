@@ -1,0 +1,356 @@
+body{
+    margin:0px;
+    font-family: "Roboto", sans-serif;
+}
+
+.container-fluid{
+    width:100%;
+    height:auto;
+    /* border: 2px solid brown; */
+}
+
+/* for 1200 width */
+.container{
+    width:1200px;
+    height:auto;
+    margin:auto;
+    /* border: 2px solid rgb(120, 42, 165); */
+
+}
+
+.row{
+    display: flex;
+    width:auto;
+    height:auto;
+    flex-wrap: wrap;
+}
+
+/* Navigation */
+
+.logo{
+    width:200px;
+    height:80px;
+    padding: 10px 0px;
+
+    /* border: 1px solid black; */
+}
+
+.navigation{
+    
+    /* border: 1px solid rgb(214, 24, 24); */
+    width:1000px;
+    padding: 30px 0px;
+
+}
+
+.navigation ul{
+    margin: 0px;
+    list-style: none;
+    text-align: right;
+}
+
+.navigation ul li{
+    display: inline-block;
+
+}
+
+.navigation ul li a{
+    text-decoration: none;
+    line-height: 40px;
+    padding:0px 20px;
+    color:#d61818;
+    display: block;
+}
+
+.navigation ul li a:hover{
+    color:white;
+    background-color:#d61818;
+}
+
+/* Banner Section */
+
+/*  setting banner box and img to full device along position*/
+.banner img{
+    width:100%;
+    height:auto;
+    position: relative;
+}
+
+/* Adding Header_content on top of img */
+
+.Header_content{
+    position: absolute;
+    top:40%;
+    left: 50%;
+    transform: translate(-50% ,-40%);
+    color: white;
+}
+
+/* dim opacity for image */
+div >img{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* Heading text - bold*/
+
+.HeadingText{
+    font-family: "Roboto slab", sans-serif;
+    font-weight: bold;
+    
+}
+
+/* Button style for disabled state along with position set */
+
+.CTA{
+    position: absolute;
+    text-align: center;
+    left:30%;
+    width: 200px;
+    height: 60px;
+    background-color: white;
+    opacity: 60%;
+    border-radius: 5px;
+    border: none;
+    font-family: "Roboto slab", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* Button style for hover state*/
+
+.CTA:hover{
+    cursor: pointer;
+    opacity: 90%;
+    font-family: "Roboto slab", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* Icons Section / service section */
+
+.material-symbols-outlined.white600 { color: #d61818; }
+
+/* All icons sizes */
+.material-symbols-outlined.md-36 { font-size: 36px; } 
+
+/* Padding Top/bottom 50 */
+
+.pad50{
+    padding:50px 0px;
+}
+
+/* 1/4th section of total width 1200px  for reference */
+.onefourth{
+    width:270px;
+    height:200px;
+    /* background-color: rgb(12, 141, 109); */
+     margin:15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* container for icon & circle display with parent  position*/
+
+.icon-container {
+    position: relative;
+    display: inline-block;
+}
+
+/* targeting circle in icon-container */
+
+.icon-container .circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 80px;  
+    height: 80px; 
+    background-color: #d61818; /* Color of the circle */
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    z-index: 0; /* Place the circle behind the icon */
+    transition: opacity 0.3s ease, background-color 0.3s ease;
+}
+
+/* targeting icon in icon-container */
+
+.icon-container .icon {
+    position: relative;
+    z-index: 1; /* Place the icon above the circle */
+    transition: color 0.3s ease;
+
+}
+
+/* circle visiblility on hover */
+
+.icon-container:hover .circle {
+    opacity: 1;
+  
+
+}
+
+/* icon styling on hover */
+
+.icon-container:hover .icon {
+    color: #ffffff; /* Color of the icon on hover */
+    cursor: pointer;
+}
+/* Margin Top/bottom 20 */
+
+.mar20{
+    margin:10px 0px;
+}
+
+/* Padding left/right 10 */
+
+.pad10{
+    padding: 0px 10px;
+}
+
+/* Subheading style */
+
+.subheading{
+    font-family: "Roboto slab", sans-serif;
+    font-weight: normal;
+}
+
+/* paragraph style */
+
+.para{
+    font-family: "Roboto ", sans-serif;
+    font-weight: lighter;
+}
+
+/* Recent works Sections */
+
+.threefourth{
+    width:370px;
+    height:300px;
+    background-color: rgb(253, 253, 253);
+    margin:15px;
+    
+}
+
+.row-noflex
+{
+    /* border: aqua 1px solid; */
+    background-color: light gray;
+}
+
+
+.bg1{
+    background-color: rgb(234, 236, 236);
+}
+/* Section Heading */
+.SectionHeading{
+    font-family: "Roboto slab", sans-serif;
+    font-weight:300;
+    text-align: center;
+
+  
+}
+
+/* line */
+.line{
+    width: 100px;
+    /* height: 47px; */
+    border-top: 2px solid #d61818;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+.caption{
+    font-family: "Roboto slab", sans-serif;
+    font-weight:300;
+    font-size: medium;
+    text-align: center;
+    
+}
+.mar5{
+    margin: 10px 0px;
+}
+.pad15{
+    padding: 15px 0px;
+
+}
+.threefourth img{
+    width:370px;
+    height: 200px;
+}
+
+
+________
+
+.threefourth .overlay{
+    position: absolute;
+    top:0px;
+    left: 0px;
+    width:370px;
+    height: 200px;
+    background-color: #d61818;
+    
+}
+
+.image-container {
+    position: relative;
+    width: 370px;
+   
+}
+
+.image-container img {
+    width: 100%;
+    display: block;
+}
+
+
+
+.overlay{
+    position: absolute;
+    width: 370px;
+    height: 200px;
+    background-color: black ;
+    opacity: 0;
+}
+
+.image-container:hover .overlay{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 370px;
+   transition: opacity 0.3s ease-in-out;
+    opacity: 1;
+    cursor: pointer;
+
+}
+
+.image-container .icons {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+.image-container:hover .icons {
+    display: flex;
+}
+
+.icon1 {
+    background-color: white;
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.icon1:hover {
+    transform: scale(1.2);
+}
