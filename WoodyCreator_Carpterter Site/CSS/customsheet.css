@@ -20,6 +20,9 @@ body{
     color:var(--bs-primary-rgb);
 }
 
+.cus-brown{
+    color: #AB7442;
+}
 
 .cus-btn-primary{
     background-color:var(--bs-primary-rgb);
@@ -39,19 +42,20 @@ body{
 
 
 
-
-
-
+/* carousels images */
 .carouselimg{
     filter: brightness(30%);
     height: 800px;
 }
+
+/* 
 .carousel-caption{
     text-align: center;
     top: 40%;
     /* border: 1px solid black; */
-}
 
+
+ */
 
 
 * {
@@ -90,12 +94,120 @@ div h5{
 }
 
 .py150{
+    padding:150px 0px;
+  
+}
+
+.py50{
     padding:50px 0px;
+  
 }
 .sec_Heading{
     font-family: "roboto", sans-serif;
     font-weight:900;
 }
-ml-10{
+.ml-10{
     margin-left: -10px;
 } 
+
+
+/* Services */
+
+
+.cards {
+    overflow: hidden; /* Ensures zoomed image stays within container */
+    position: relative;
+}
+
+/* Image styling */
+.cards .card-img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.4s ease; /* Smooth transition for the zoom effect */
+}
+
+/* Zoom effect on hover */
+.cards:hover .card-img {
+    transform: scale(1.2); /* Zooms the image by 1.2x */
+    opacity: 80%;
+}
+
+a {
+    text-decoration-line: none;
+
+}
+
+a:hover{
+    color: var(--primaryhover);
+}
+
+#Hylnk-icon{
+
+border: 1px solid black;
+margin-top: 100px;
+
+
+}
+
+.imgsize{
+   width:100%;
+   height: 600px;
+    border: solid 1px black; 
+}
+
+.carousel-item {
+    position: relative;
+    height: 100vh; /* Full screen height */
+    background-size: cover;
+    background-position: center;
+  }
+
+  .carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    color: white; /* Make the text white for contrast */
+    /* text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Add text shadow for readability */}  
+
+    
+    /* Sticky bottom butom */
+
+    body:hover .sticky-button {
+        opacity: 1;
+    }
+    .sticky-button{
+        opacity: 0;
+        z-index: 4;
+    }
+
+    /* projects */
+
+    .overlay {
+        position: absolute;
+        bottom: 100%;
+        width: 100%;
+        height: 0%;
+        background-color: #353535;
+        opacity: 0;
+
+       
+        transition-property: height;
+        transition-duration: 0.5s
+       
+    }
+
+    .cards:hover .overlay {
+        opacity: 0.8;
+       bottom:0;
+       height: 100%;
+        
+    }
+    .icon{
+        
+        transition-property: height;
+        transition-duration: 2s
+    }
+    .cards:hover .icon{
+    cursor: pointer;
+    }

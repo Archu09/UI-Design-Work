@@ -2,8 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Woody_Creator_Carpenter_services Site</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
   
     <!-- bootstrap lib -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
@@ -34,9 +39,9 @@
      
       </style>
 </head>
-<body>
+<body id="header">
     <!-- 01 header and navigation    -->
-<section>
+<section id="header">
   <nav class="navbar  navbar-expand-lg bg-light ">
     <div class="container-fluid ">
       <a class="navbar-brand px-5" href="#"><h2 class="cus-primary">WooDY</h2></a>
@@ -46,16 +51,16 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class=" justify-content-center navbar-nav ms-auto mb-2 mb-lg-0">
           <li class="nav-item px-3">
-            <a class="nav-link active " aria-current="page" href="#">HOME</a>
+            <a class="nav-link active " aria-current="page" href="index.html">HOME</a>
           </li>
           <li class="nav-item px-3">
-            <a class="nav-link" href="#">ABOUT</a>
+            <a class="nav-link" href="#about">ABOUT</a>
           </li>
           <li class="nav-item px-3">
-            <a class="nav-link" href="#">SERVICE</a>
+            <a class="nav-link" href="#services">SERVICE</a>
           </li>
           <li class="nav-item px-3">
-            <a class="nav-link" href="#">PROJECTS</a>
+            <a class="nav-link" href="#projects">PROJECTS</a>
           </li>
           <li class="nav-item dropdown px-3">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -84,25 +89,35 @@
 </section>
 
 <!-- 02 baner  -->
-<section>
+<section id="banner">
   <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
       </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
+      <div class="carousel-inner ">
+
+        
+        
+          <!-- Slide 1 -->
+         
+
+        <div class="carousel-item active ">
           <img src="images/carousel-1.jpg" class="d-block w-100 carouselimg" alt="...">
-          <div class="carousel-caption d-none d-md-block   ">
+          <div class="carousel-caption  col-lg-6 ">
             <h1 class="h4" style="font-style: italic;">___Welcome to Woody@creator___</h1>
             <h1>Best Carpenter and  Craftsman services </h1>
-            <p>Some representative placeholder content for the first slide.</p>
-            <div class="row justify-content-center">
-              <button class="btn btn-cornerradiussharp cus-btn-primary py-4 px-lg-5 d-none d-lg-block col-2 mx-3" type="submit"> Read More</button>
-                <button class="btn btn-cornerradiussharp btn-light py-4 px-lg-5 d-none d-lg-block col-2 " type="submit"> Free Quote </button>
+            <p >Some representative placeholder content for the first slide.</p>
+            <div class="container">
+              <div class="row d-flex gap-2 justify-content-center ">
+                <button class="btn btn-default cus-btn-primary w-25  " type="submit"> Read More</button> 
+                  <button class="btn btn-default  btn-light py-2 w-25  " type="submit"> Free Quote </button>
+  
+              </div>
 
             </div>
+           
              
           </div>
         </div>
@@ -135,7 +150,7 @@
 
 
 <!-- 03 callouts -->
-<section>
+<section id="feature">
 
 <div class="container text-center py150">
 
@@ -150,7 +165,7 @@
       </div>
       <div class="row">
         <div class="col-lg-12 justify-content-center">
-         <h5 >Creative Designers</h5> 
+         <h5 class="text">Creative Designers</h5> 
         </div>
 
       </div>
@@ -219,15 +234,15 @@
 
 
 <!-- 04 about -->
-<section>
+<section id="about">
 
 <div class="container-fluid">
   <div class="row ">
-    <div class="col-lg-6 px-0" >
-      <img src="Images/about.jpg" style="width: 100%; height: 500px; ">
+    <div class="col-lg-6  " style=" padding-left: 18px;">
+      <img src="Images/about.jpg" style="height: 100%; width: 100%;">
     </div>
   
-    <div class="col-lg-6 bg-light py150 px-4" >
+    <div class="col-lg-6 bg-light py150 px-4 " >
       <h1 class="sec_Heading text-dark  py-4">About Us _</h1>
       <p class="text-secondary py-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo erat amet</p>
      
@@ -257,10 +272,148 @@
   </div>
 </div>
 
-
 </section>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 
+<!-- 04 Services -->
+<section id="services">
+ 
+<div class="container ">
+  
+  <h1 class="h1 text-center py50">_Our Services_</h1>
+
+  <div class="row text-center ">
+
+    <div class="col-lg-4 h-25 vstack "> <div class="cards"><img src="Images/service-1.jpg" class="card-img" alt=""></div><div class="text-bg-light py-4 px-4 gap-2"><h1 class="h4">General Carpentary</h1><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem, corrupti?</p><a href="#" class="cus-primary h6">Read More <i class=" bi bi-arrow-right h5 cus-primary px-0 mx-1 text-bg-light "></i></a></div></div>
+    <div class="col-lg-4 h-25 vstack "> <div class="cards"><img src="Images/service-2.jpg" class="card-img" alt=""></div><div class="text-bg-light py-4 px-4 gap-2"><h1 class="h4">Furniture Manufacturing</h1><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem, corrupti?</p><a href="#" class="cus-primary h6">Read More <i class=" bi bi-arrow-right h5 cus-primary px-0 mx-1 text-bg-light "></i></a></div></div>
+    <div class="col-lg-4 h-25 vstack "> <div class="cards"><img src="Images/service-3.jpg" class="card-img" alt=""></div><div class="text-bg-light py-4 px-4 gap-2"><h1 class="h4">Furniture Remodeling</h1><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem, corrupti?</p><a href="#" class="cus-primary h6">Read More <i class=" bi bi-arrow-right h5 cus-primary px-0 mx-1 text-bg-light "></i></a></div></div>
+
+
+  </div>
+  
+<!-- 2nd row -->
+
+<div class="row text-center mt-4">
+
+  <div class="col-lg-4 h-25 vstack "> <div class="cards"><img src="Images/service-4.jpg" class="card-img" alt=""></div><div class="text-bg-light py-4 px-4 gap-2"><h1 class="h4">Wooden Floor</h1><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem, corrupti?</p><a href="#" class="cus-primary h6">Read More <i class=" bi bi-arrow-right h5 cus-primary px-0 mx-1 text-bg-light "></i></a></div></div>
+  <div class="col-lg-4 h-25 vstack "> <div class="cards"><img src="Images/service-5.jpg" class="card-img" alt=""></div><div class="text-bg-light py-4 px-4 gap-2"><h1 class="h4">Wooden Furniture</h1><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem, corrupti?</p><a href="#" class="cus-primary h6">Read More <i class=" bi bi-arrow-right h5 cus-primary px-0 mx-1 text-bg-light "></i></a></div></div>
+  <div class="col-lg-4 h-25 vstack "> <div class="cards"><img src="Images/service-6.jpg" class="card-img" alt=""></div><div class="text-bg-light py-4 px-4 gap-2"><h1 class="h4">Custom Wor4</h1><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem, corrupti?</p><a href="#" class="cus-primary h6">Read More <i class=" bi bi-arrow-right h5 cus-primary px-0 mx-1 text-bg-light "></i></a></div></div>
+
+</div>
+</div>
+  </section>
+
+  <!-- 05 Choose Us -->
+   <section>
+   
+      <div class="container-fluid bg-light my-5">
+        <div class="row  align-items-center ">
+
+          <div class="col-lg-6 p-5 ">
+            <h1 class="text-secondary-emphasis h1 ">Why Choose Us_</h1>
+            <p class="text-black-50 pt-3 w-100 ">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo erat amet</p>
+          
+          <div class="row">
+
+            <div class="col-lg-6  d-flex justify-content-center   " >
+              <i class="bi bi-check-lg cus-primary text-center  h1 m-2"  ></i>
+              
+              <div class="d-flex vstack justify-content-start align-self-center"  >
+                <h6 style="font-weight: 400;">Quality</h6>
+              <h5 class="h5 text-secondary-emphasis">Services</h5>
+              </div>
+
+              
+            </div>
+
+            <div class="col-lg-6  d-flex justify-content-center " >
+              <i class="bi bi-check-lg cus-primary text-center  h1 m-2" ></i>
+              
+              <div class="d-flex vstack justify-content-start align-self-center" >
+                <h6 style="font-weight: 400;" >Creative</h6>
+              <h5 class="h5 text-secondary-emphasis" >Designers</h5>
+              </div>
+
+              
+            </div>
+
+          </div>
+          
+  <!-- 2nd row  -->
+
+  <div class="row ">
+
+    <div class="col-lg-6  d-flex justify-content-center   "  >
+      <i class="bi bi-check-lg  text-center cus-primary h1 m-2"  ></i>
+      
+      <div class="d-flex vstack justify-content-start align-self-center" >
+        <h6 style="font-weight: 400;">Free</h6>
+      <h5 class="h5 text-secondary-emphasis">Consultation</h5>
+      </div>
+
+      
+    </div>
+
+    <div class="col-lg-6  d-flex justify-content-center "  >
+      <i class="bi bi-check-lg text-center cus-primary h1 m-2 "  ></i>
+      
+      <div class="d-flex vstack justify-content-start align-self-center" >
+        <h6 style="font-weight: 400;">Customer</h6>
+      <h5 class="h5 text-secondary-emphasis">Support </h5>
+      </div>
+
+      
+    </div>
+
+  </div>
+  
+          </div>
+          <div class="col-lg-6 "><img class="img-fluid imgsize" src="Images/feature.jpg" alt=""></div>
+  
+        </div>
+      </div>
+   
+    
+
+   </section>
+
+
+<!-- 006 Our Projects -->
+
+<section id="projects">
+  <div class="container ">
+  
+    <h1 class="h1 text-center py50">_Our Projects_</h1>
+  
+    <div class="row text-center ">
+  
+      <div class="col-lg-4 h-25 vstack "> <div class="cards"><img src="Images/service-1.jpg" class="card-img" alt=""><div class="overlay d-flex justify-content-center align-items-center"><i class="icon bi bi-eye-fill"></i> <i class="icon bi bi-link-45deg"></i></div></div><div class="text-bg-light py-4 px-4 gap-2"><h1 class="h4">General Carpentary</h1><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem, corrupti?</p><a href="#" class="cus-primary h6">Read More <i class=" bi bi-arrow-right h5 cus-primary px-0 mx-1 text-bg-light "></i></a></div></div>
+      <div class="col-lg-4 h-25 vstack "> <div class="cards"><img src="Images/service-2.jpg" class="card-img" alt=""><div class="overlay d-flex justify-content-center align-items-center"><i class="icon bi bi-eye-fill"></i> <i class="icon bi bi-link-45deg"></i></div></div><div class="text-bg-light py-4 px-4 gap-2"><h1 class="h4">Furniture Manufacturing</h1><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem, corrupti?</p><a href="#" class="cus-primary h6">Read More <i class=" bi bi-arrow-right h5 cus-primary px-0 mx-1 text-bg-light "></i></a></div></div>
+      <div class="col-lg-4 h-25 vstack "> <div class="cards"><img src="Images/service-3.jpg" class="card-img" alt=""><div class="overlay d-flex justify-content-center align-items-center"><i class="icon bi bi-eye-fill"></i> <i class="icon bi bi-link-45deg"></i></div></div><div class="text-bg-light py-4 px-4 gap-2"><h1 class="h4">Furniture Remodeling</h1><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem, corrupti?</p><a href="#" class="cus-primary h6">Read More <i class=" bi bi-arrow-right h5 cus-primary px-0 mx-1 text-bg-light "></i></a></div></div>
+  
+  
+    </div>
+    
+  <!-- 2nd row -->
+  <div class="row text-center mt-4">
+  
+    <div class="col-lg-4 h-25 vstack "> <div class="cards"><img src="Images/service-4.jpg" class="card-img" alt=""><div class="overlay d-flex justify-content-center align-items-center"><i class="icon bi bi-eye-fill"></i> <i class="icon bi bi-link-45deg"></i></div></div><div class="text-bg-light py-4 px-4 gap-2"><h1 class="h4">General Carpentary</h1><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem, corrupti?</p><a href="#" class="cus-primary h6">Read More <i class=" bi bi-arrow-right h5 cus-primary px-0 mx-1 text-bg-light "></i></a></div></div>
+    <div class="col-lg-4 h-25 vstack "> <div class="cards"><img src="Images/service-5.jpg" class="card-img" alt=""><div class="overlay d-flex justify-content-center align-items-center"><i class="icon bi bi-eye-fill"></i> <i class="icon bi bi-link-45deg"></i></div></div><div class="text-bg-light py-4 px-4 gap-2"><h1 class="h4">Furniture Manufacturing</h1><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem, corrupti?</p><a href="#" class="cus-primary h6">Read More <i class=" bi bi-arrow-right h5 cus-primary px-0 mx-1 text-bg-light "></i></a></div></div>
+    <div class="col-lg-4 h-25 vstack "> <div class="cards"><img src="Images/service-6.jpg" class="card-img" alt=""><div class="overlay d-flex justify-content-center align-items-center"><i class="icon bi bi-eye-fill"></i> <i class="icon bi bi-link-45deg"></i></div></div><div class="text-bg-light py-4 px-4 gap-2"><h1 class="h4">Furniture Remodeling</h1><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem, corrupti?</p><a href="#" class="cus-primary h6">Read More <i class=" bi bi-arrow-right h5 cus-primary px-0 mx-1 text-bg-light "></i></a></div></div>
+
+
+  </div>
+  
+  </div>
+</section>
+
+ 
+  <a class=" btn btn-default cus-btn-primary sticky-bottom sticky-button" href="#header" style=" float:right;" > <i class="h3 bi bi-file-arrow-up"></i></button>
+    
+
+
+ 
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
 </body>
 </html>
