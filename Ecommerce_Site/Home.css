@@ -354,3 +354,16 @@ ________
 .icon1:hover {
     transform: scale(1.2);
 }
+/*  Services Section*/
+.subheading1{
+    font-family: "roboto slab", sans-serif;
+    font-size: 14px;
+
+}
+
+.threefourth1{
+    width:370px;
+    height:2%;
+    margin:15px;
+    
+}
