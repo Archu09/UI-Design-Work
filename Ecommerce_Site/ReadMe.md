@@ -1,1 +1,1 @@
-![Ecommercesite](https://github.com/Archu09/UI-Design-Work/blob/6c007a3d9c4d799e47806a654fae9c0cd5d0da52/Ecommerce_Site/ScreenShot%231.png)
+![Ecommercesite](https://github.com/Archu09/UI-Design-Work/blob/112c61991b0178325450d992674eb420a803ec8e/Ecommerce_Site/Ecommerce-Site_ScreenShot%232.png)
